@@ -1,0 +1,264 @@
+body{
+    background-color: #a0520e;
+    background: url(img/jpsr-bg-header.jpg) #a0520e no-repeat center top;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.pluginSkinLight{
+    width: auto !important;
+}
+@media (max-width: 576px) {
+    body{
+        background: url(img/jpsr-bg-header.jpg) #a0520e no-repeat center top;
+   }
+}
+@media (max-width: 768px) {
+    body{
+        background: url(img/jpsr-bg-header.jpg) #a0520e no-repeat center top;
+   }
+}
+p{
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 900;
+}
+.borde{
+    border: red 1px solid;
+}
+.header-txt-promo1{
+    text-align:right;
+    color: #a0520e;
+    margin: 5vw 0 0 0;
+    font-size: 1.5rem;
+}
+.header-txt-promo2{
+    text-align: right;
+    color: #f8ee9b;
+    margin: 4rem 0 0 0;
+    font-size: 1.5rem;
+}
+.nav-curso{
+    border: 8px solid #de881c;
+    padding: 0%;
+}
+.btn-matricula{
+    text-transform: uppercase;
+    margin: 3rem auto;
+    background: #017f35;
+    border-radius: 20px;
+    padding: 3rem 5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    box-shadow: #00441c 0 1rem 0;
+    font-weight:900;
+}
+.btn-matricula:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #fb7842;
+    box-shadow: #ba3700 0 1rem 0;
+}
+.blog-content{
+    border-radius:20px;
+    background: #fff;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+.blog-content>a{
+    padding: 2rem 5rem;
+}
+.content-title{
+    text-align: center;
+    background: scroll url(img/bg-titulo.jpg) no-repeat center center;
+    background-size: cover;
+    height: auto;
+    padding: 0%;
+}
+.content-title-2 p{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#696969;
+    text-align: center;
+    padding: 2rem 0;
+}
+.content-title p{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#fff;
+}
+.titulo-depoimentos{
+    color: #017f35;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 92px;
+}
+.grid-depoimento{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0%;
+}
+.depoimentos-img a{
+    color: #017f35;
+    font-weight: bold;
+}
+.grid-depoimento p{
+    padding: 1rem;
+    color: #017f35;
+    font-weight: bold;
+}
+.txt-socialmedia p{
+    color: #767676;
+}
+.txt-socialmedia-numero{
+    color: #1877f2;
+    font-size: 6em;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    line-height: 5rem;
+}
+.txt-socialmedia-yt{
+    color: #e00000;
+    font-size: 6em;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    line-height: 5rem;
+}
+.img-sitio-rentavel{
+    padding: 0%;
+    margin: 0 auto;
+}
+.div-center-youtube{
+    margin: 0px auto;
+    border: 8px solid #de881c;
+}
+.video-youtube{
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+    background-color: black;
+}
+.video-youtube iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.img-playlist-youtube{
+    width: 100%;
+    margin: 9%;
+}
+.btn-playlist-youtube-color{
+    background-color: white;
+    height:25%;
+}
+.btn-playlist-youtube-color:hover{
+    background-color: rgb(250, 227, 184);
+    transition:all .5s ease-in-out;
+}
+.img-nilzon {
+    display: flex;
+    align-items: flex-end;
+}
+.btn-curso-gestao{
+    display: flex;
+    padding: 0%;
+    margin: 0 auto;
+}
+.contato{
+    text-align:right;
+    align-self: center;
+}
+.footer{
+    margin: 2rem 0 0 0;
+    text-align: center;
+    background: url("img/footer-bg.jpg") bottom center repeat-x;
+    height: 315px;
+}
+.facebook{
+    margin: 0 auto;
+}
+.facebook iframe{
+    height: 116rem;
+}
+@media (max-width: 576px) {
+    .header-txt-promo1{
+        text-align: center;
+        font-size: 1rem;
+   }
+    .header-txt-promo2{
+        text-align:center;
+        color: #a0520e;
+        font-weight: 800;
+        margin-bottom: 10vw;
+        font-size: 1rem;
+   }
+    .btn-matricula{
+        padding: 7%;
+        font-size: 1.1rem;
+   }
+    .content-title-2 p{
+        font-size: 1.2rem;
+   }
+    .content-title p{
+        font-size: 1.2rem;
+   }
+    .depoimentos-img{
+        padding: 0%;
+        width:92%;
+   }
+    .div-center-youtube{
+        max-width: 100%;
+   }
+    .facebook iframe{
+        height: 195rem;
+   }
+}
+@media (max-width: 768px) {
+    .depoimentos-img{
+        width: 100%;
+   }
+    .logopindorama{
+        margin: auto -4vw 3vw;
+   }
+}
+@media (min-width: 960px) {
+    .video-youtube{
+        padding-bottom: 37%;
+   }
+}
+@media (max-width: 1200px) {
+    .video-youtube{
+        padding-bottom: 42%;
+   }
+}
+
+@media (max-width: 576px) {
+    .video-youtube{
+        padding-bottom: 56.25%;
+   }
+}
+
+
+@media (max-width: 991px) {
+    .depoimentos-img img{
+        width: 92%;
+        padding: 0%;
+   }
+    .grid-depoimento{
+        margin: 0%;
+   }
+}
+@media (min-width: 1200px) {
+    .header-txt-promo1{
+        text-align: right;
+        margin: 8rem 0 0 15rem;
+        font-size: 20px;
+   }
+    .header-txt-promo2{
+        text-align:right;
+        font-size: 20px;
+   }
+}
